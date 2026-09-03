@@ -1,0 +1,9 @@
+# Search Engine Crawling Directives for Mizaan Technologies
+User-agent: *
+Allow: /
+Allow: /mizaan-transparent.png
+Allow: /branding-mockup.png
+Allow: /banner.png
+
+# Sitemap Location
+Sitemap: https://mizaantech.co.in/sitemap.xml

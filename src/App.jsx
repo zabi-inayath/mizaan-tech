@@ -5,13 +5,13 @@ const BRAND_IMAGES = [
     id: 'texture',
     label: 'Brand Texture',
     src: '/banner.png',
-    alt: 'Mizaan Technologies textured leather branding',
+    alt: 'Mizaan Technologies official textured leather branding and software engineering identity',
   },
   {
     id: 'mockup',
     label: 'Product Mockup',
     src: '/branding-mockup.png',
-    alt: 'Mizaan apparel and translucent smart card mockup',
+    alt: 'Mizaan Technologies apparel mockup and translucent smart card digital product design',
   },
 ]
 
@@ -55,12 +55,13 @@ export default function App() {
       {/* Top Minimal Navigation */}
       <header className="relative z-10 w-full border-b border-white/[0.06] bg-[#090204]/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2">
+          <a href="/" className="flex items-center gap-2" aria-label="Mizaan Technologies Home">
             <img
               src="/mizaan-transparent.png"
-              alt="Mizaan"
+              alt="Mizaan Technologies - Custom Software Engineering & AI Solutions Logo"
               className="h-38 w-auto object-contain brightness-110"
             />
+            <span className="sr-only">Mizaan Technologies</span>
           </a>
 
         </div>
@@ -75,9 +76,10 @@ export default function App() {
             <div className="lg:col-span-5 flex flex-col justify-center space-y-8">
               
               <div className="space-y-3">
-                <p className="text-4xl text-zinc-200 pt-2 font-light">
+                <h1 className="sr-only">Mizaan Technologies | Custom Software Development, AI Solutions & Enterprise IT Engineering</h1>
+                <h2 className="text-4xl text-zinc-200 pt-2 font-light">
                   New identity and visual direction in progress.
-                </p>
+                </h2>
               </div>
 
               {/* Minimalist Contact Details */}
